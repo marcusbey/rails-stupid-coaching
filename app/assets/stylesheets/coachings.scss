@@ -1,0 +1,50 @@
+// Place all the styles related to the coachings controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100');
+
+
+h2, h1, form, label {
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 20px;
+
+
+}
+
+h3{
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 20px;
+
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+}
+
+input{
+  height: 30px;
+  weight:400px;
+  border-radius: 3px;
+}
+
+::placeholder {
+  font-family: 'Raleway', sans-serif;
+  color: lightgrey;
+  font-size: 13px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 20px
+}
