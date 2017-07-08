@@ -1,6 +1,6 @@
 class CoachingsController < ApplicationController
-  def ask
 
+  def ask
 
   end
 

@@ -1,10 +1,8 @@
 Rails.application.routes.draw do
 
-
-  get 'answer', to: 'coachings#answer'
-
-  get 'ask', to: 'coachings#ask'
-  get 'root', to: 'coachings#ask'
+  get '/answer', to: 'coachings#answer'
+  get '/ask', to: 'coachings#ask'
+  root to: 'coachings#ask'
 
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
