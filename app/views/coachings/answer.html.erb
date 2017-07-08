@@ -1,5 +1,18 @@
-<div class = "container">
-  <h2><%= @answer %></h2>
-  <h3>  <%= link_to "Ask a new question", root_path %></h3>
+<div class="wrapper-ask">
+  <div class="container ask">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="carte-coach">
+          <% if @answer == "GOOOD!!" %>
+            <h2 class="text-center"><%= @answer %></h2>
+            <%= image_tag "trainer.jpg", {class: "coach", alt: "your_coach"} %>
+          <% else %>
+            <h1 class="text-center"><%= @answer %></h1>
+            <%= image_tag "angry.jpg", {class: "coach", alt: "your coach"}%>
+          <% end %>
+          <h3 class="text-center"> <%= link_to "Ask a new question", root_path, class: "question" %></h3>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-

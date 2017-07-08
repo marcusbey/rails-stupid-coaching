@@ -1,13 +1,18 @@
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 col-la-6">
-
-      <h1>Hello, I am your coach, what did you want to tell me?</h1>
-      <form action="answer" method="get" id="form">
-        <label for="form">Speak to your coach</label>
-        <input type="text" name="query" placeholder="write someting">
-        <input type="submit" value= "Go on!" class="btn">
-      </form>
+<div class="wrapper-ask">
+  <div class="container ask">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="carte-coach">
+          <h2>Hello, I am your coach.</h2>
+          <%= image_tag "trainer.jpg", {class: "coach", alt: "your coach"} %>
+          <h3>what did you want to tell me?</h3>
+          <form action="answer" method="get" id="form" class="form-inline">
+            <label for="form">Speak to your coach</label>
+            <input type="text" class="form-control ask-input" name="query" placeholder="write something">
+            <button type="submit" class="btn btn-success btn-lg">Go on!</button>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 </div>

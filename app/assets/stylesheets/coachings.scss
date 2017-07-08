@@ -1,3 +1,79 @@
 // Place all the styles related to the coachings controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Chelsea+Market|Pacifico');
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #E8F4EF;
+}
+.carte-coach {
+  width: 40vw;
+}
+
+.coach {
+  height: 50vh;
+}
+
+div, h2, h3{
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+h1 {
+font-family: 'Chelsea Market', cursive;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 30px;
+}
+
+label {
+  font-weight: 100;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.question {
+  text-decoration: none;
+  color: black;
+}
+.question:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.ask-input {
+  height: 60px;
+  padding-bottom:5px;
+}
+
+
+
+::placeholder {
+  color: rgba( 0, 0, 0, 0.3);
+  font-weight: 100;
+}
+
+h2
+{
+  font-family: 'Pacifico', cursive;
+}
+
+.wrapper-ask {
+  height: 100vh;
+}
+
+.ask{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

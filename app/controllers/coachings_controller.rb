@@ -7,7 +7,9 @@ class CoachingsController < ApplicationController
   def answer
     @question = params[:query]
     if @question.to_s.downcase == "i am going to work right now!"
-      @answer = "GOOOD"
+      @answer = "GOOOD!!"
+    elsif @question.to_s.downcase ==  "i'm going to the gym right now!"
+      @answer = "GOOOD!!"
     elsif @question.to_s.end_with?("?")
       @answer = "Silly question, get dressed and go to work!"
     else
